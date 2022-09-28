@@ -45,16 +45,16 @@
   - Instalasi Git <br/>
   Peringatan: email yang disetup HARUS SAMA dengan yang digunakan pada GITHUB
     1. Download dan jalankan hasil download GIT kamu seperti instal aplikasi pada umumnya
-    2. Melakukan setup awal seperti gambar berikut:
+    2. Melakukan setup awal seperti gambar berikut: <br/>
     ![setup](Picture1.png)
-    3. Cek instalasi berhasil seperti gambar berikut:
+    3. Cek instalasi berhasil seperti gambar berikut:<br/>
     ![cekinstallasi](cek.png)
   - Repositori Git <br/>
     Repository adalah direktori proyek yang kita buat. 1 Repo =  1 Proyek = 1 Direktori. <br/>
-    Cara membuat repositori:
-    1. Menggunakan command line seperti gambar berikut:
+    Cara membuat repositori: 
+    1. Menggunakan command line seperti gambar berikut:<br/>
     ![membuat repo](membuat_repo.png)
-    2. Jika telah membuat repo, dapat menggunakan command line seperti gambar berikut:
+    2. Jika telah membuat repo, dapat menggunakan command line seperti gambar berikut:<br/>
     ![repo](repo.png)
   - Perintah dasar git yang lain
     1. git status <br/>
@@ -70,7 +70,7 @@
     
             git commit –m “Isi dengan keterangan untuk commit”
     4. git log <br/>
-    Dengan menjalankan peritah ini akan menampilkan daftar commits yang ada di branch beserta detail-nya.
+    Dengan menjalankan peritah ini akan menampilkan daftar commits yang ada di branch beserta detail-nya. <br/>
     ![gitlog](git_log.png)
     5. git checkout <br/>
     Perintah git checkout bisa digunakan untuk membuat branch atau untuk berpindah diantaranya. Misalnya, perintah berikut ini akan membuat branch baru dan berpindah ke dalamnya:
@@ -99,8 +99,8 @@
 
             git merge <nama-branch>
 ## HTML (Hypertext Markup Language)
-HTML adalah bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Selain HTML, ada juga bahasa CSS (Cascading Style Sheet) dan JavaScript yang akan kita pelajari untuk membuat sebuah tampilan website yang interaktif. Secara fungsi, ketiga bahasa tersebut bisa dianalogikan seperti ini:
-![html-css-js](html-css-js.gif)
+HTML adalah bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Selain HTML, ada juga bahasa CSS (Cascading Style Sheet) dan JavaScript yang akan kita pelajari untuk membuat sebuah tampilan website yang interaktif. Secara fungsi, ketiga bahasa tersebut bisa dianalogikan seperti ini: <br/>
+![html-css-js](html-css-js.gif) <br/>
 HTML bersifat statis, HTML hanya bertugas menampilkan konten yang diminta oleh developer.HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data. <br/>
 Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML:
 1. Browser
@@ -133,8 +133,8 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
     3. ```<head>``` pada umumnya berisi ```<meta>```, ```<title>```, konten css/js internal maupun link ke file css/js eksternal.
     4. ```<body>``` berisi konten website yang ingin ditampilkan pada browser.
 - HTML Elements<br/>
-  HTML Element merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar.
-  ![htmlElement](html-element.jpg)
+  HTML Element merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar.<br/>
+  ![htmlElement](html-element.jpg)<br/>
   Pada umumnya, HTML Element terdiri dari:
   - Opening Tag (tag pembuka) - contohnya adalah ```<p>```.
   - Closing Tag (tag penutup) - contohnya adalah ```</p>```.
@@ -146,7 +146,7 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
 
       <!-- <img> adalah tag untuk memasukkan element gambar -->
       <img width="80%" src="https://bit.ly/3laVBck" />
-  Pada kode di atas, tag <img> memiliki dua attribute:
+  Pada kode di atas, tag ```<img>``` memiliki dua attribute:
   - width yang berfungsi untuk menentukan lebar dari element gambar, dan diberikan value (nilai) lebar sebesar 80%
   - src yang berfungsi untuk menentukan sumber gambar, dan diberikan value (nilai) untuk diarahkan ke tautan ```https://bit.ly/3laVBck```
   
@@ -171,13 +171,13 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
       <h4>Heading Empat</h4>
       <h5>Heading Lima</h5>
       <h6>Heading Enam</h6>
-  Hasilnya akan seperti pada gambar berikut:
+  Hasilnya akan seperti pada gambar berikut: <br/>
   ![heading](html-headings.png)
 - Paragraf <br/>
   Untuk membuat paragraf pada halaman website, maka dibutuhkan tag ```<p>```.
 - Link <br/>
   Untuk membuat link pada halaman web, maka diperlukan tag ```<a>```. Tag ```<a>``` memiliki attribute href yang berguna untuk menyimpan link website yang dituju.
-  penggunaannya seperti:
+  Penggunaannya seperti:
       
       <a href="https://google.com">Google</a>
 - Span <br/>
@@ -218,7 +218,8 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
         <li>Anjing</li>
         <li>Ikan</li>
       </ol>
-  Hasilnya akan seperti ini:
+
+  Hasilnya akan seperti ini: <br/>
   ![list](html-list.png)
 - Gambar<br/>
   Untuk menampilkan gambar pada halaman sebuah website, maka kita membutuhkan tag ```<img>```.<br/>
@@ -228,8 +229,8 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
   Attribute ```alt``` memberikan informasi alternatif atas gambar jika pengguna tidak bisa melihat gambar di website kita. Gambar yang tidak muncul di browser bisa disebabkan karena koneksi internet yang buruk atau terdapat error pada attribute ```src```. Attribute ```alt``` juga berguna bagi pengguna screen reader untuk mengetahui informasi tentang gambar tersebut.<br/>
   Attribute ```alt``` harus mendeskripsikan tentang gambar yang bersangkutan jika gambar tersebut berisi informasi. Kemudian, ```alt``` juga sebaiknya menjelaskan alamat link jika gambar berada di dalam element ```<a>```. Terakhir, gunakan ```alt``` dengan string kosong (contohnya ```<img alt=""``` />) apabila gambar hanya berfungsi sebagai dekorasi pada website.
 - Video <br/>
-   untuk bisa menambahkan video pada halaman web kita; yaitu dengan menggunakan tag ```<video>```. Format video yang didukung antara lain: mp4, ogg, dan webM.<br/>
-   Contoh penggunaannya:
+  Untuk bisa menambahkan video pada halaman web kita; yaitu dengan menggunakan tag ```<video>```. Format video yang didukung antara lain: mp4, ogg, dan webM.<br/>
+  Contoh penggunaannya:
 
       <video width="320" height="240">
         <source src="https://bit.ly/3j6rPni" />
@@ -331,7 +332,7 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
           </tr>
         </tfoot>
       </table>
-  Tampilannya akan seperti ini:
+  Tampilannya akan seperti ini: <br/>
   ![tabel](html-table-example2.png)
 - Formulir<br/>
   Tag ```<form>``` digunakan untuk mengawali pembuatan form.<br/>
@@ -418,11 +419,11 @@ Dokumen HTML memiliki 3 tag utama, yaitu html,head, dan body. Ketiga tag tersebu
   - Main Content
   - Footer
 
-  ![html-layout](html-layout.svg)
+  ![html-layout](html-layout.svg)<br/>
   Penentuan layout pada halaman website hanya menggunakan tag ```<div>``` dan ```<span>``` dan dibantu dengan attribute id atau class untuk memperjelas element header, section, main, dan lain-lain. Namun di HTML5, layout pada website lebih diperjelas dengan element tertentu, sehingga memudahkan programmer untuk membaca kode. Penjelasan element ini dinamakan semantic element.<br/>
   Semantic element menjelaskan tujuan dari element tersebut kepada browser dan pemrogram lain yang membaca kodenya. Semantic element tidak mempengaruhi tampilan dari halaman web, itu adalah fungsi dari CSS.<br/>
-  Supaya lebih jelas, berikut bandingkan non-semantic element (pada HTML4) dengan semantic element (pada HTML5):
-  ![perbandingan](semantic-vs-nonsemantic.png)
+  Supaya lebih jelas, berikut bandingkan non-semantic element (pada HTML4) dengan semantic element (pada HTML5): <br/>
+  ![perbandingan](semantic-vs-nonsemantic.png) <br/>
   Beberapa contoh dari semantic element:
   - ```<section>``` menandakan bagian dalam sebuah halaman web.
   - ```<header>``` merupakan bagian tajuk dari sebuah halaman web.
@@ -439,10 +440,10 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
   2. Blok Deklarasi;
   3. Properti dan nilainya.
 
-  Berikut gambar dari struktur CSS:
+  Berikut gambar dari struktur CSS:<br/>
   ![struktur-css](struktur-dasar-sintaks-css.png)
 - CSS Comment<br/>
-  Dengan menggunakan CSS Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan. Comment ini pasti selalu ada dalam bahasa pemrograman apapun. Comment tidak akan dieksekusi oleh sistem. Comment hanya untuk dibaca oleh sesama programmer.
+  Dengan menggunakan CSS Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan. Comment ini pasti selalu ada dalam bahasa pemrograman apapun. Comment tidak akan dieksekusi oleh sistem. Comment hanya untuk dibaca oleh sesama programmer.<br/>
   ![comment](commentCss.png)
 - Penggunaan CSS<br/>
   Ada 3 cara untuk menyisipkan CSS ke dalam HTML, yaitu:
@@ -605,7 +606,7 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
         a[href] {
           background-color: green;
         }
-    Pada kode HTML di atas, kalian bisa lihat ada 3 buah element ```<a>```, tapi hanya 2 di antaranya yang memiliki attribute ```href```. Jadi hanya element ```<a>``` kedua dan ketiga yang akan memiliki latar belakang berwarna hijau.
+    Pada kode HTML di atas, kalian bisa lihat ada 3 buah element ```<a>```, tapi hanya 2 di antaranya yang memiliki attribute ```href```. Jadi hanya element ```<a>``` kedua dan ketiga yang akan memiliki latar belakang berwarna hijau.<br/>
     ![selector](css-selector-06.png)
   - Memberikan Style di Child Element<br/>
     
@@ -634,7 +635,7 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
           background-color: yellow;
         }
     Kali ini kedua selector tersebut dipisah oleh tanda ```">"``` yang berarti semua element ```<p>``` yang merupakan child dari element ```<div>``` dengan ```id``` bernilai ```container``` akan diberi latar belakang berwarna kuning.<br/>
-    Jadi bedakan kedua hal tersebut. Kalau dipisah dengan spasi, berarti artinya semua element di dalam; kalau dipisah dengan tanda ```">"``` artinya semua element yang merupakan **child**.
+    Jadi bedakan kedua hal tersebut. Kalau dipisah dengan spasi, berarti artinya semua element di dalam; kalau dipisah dengan tanda ```">"``` artinya semua element yang merupakan **child**.<br/>
     ![child](child-selectors.svg)
   - Memberikan Style yang Sama di Lebih dari Satu Element Sekaligus<br/>
     Jika kita ingin memberikan style yang sama pada lebih dari satu element sekaligus, maka kita bisa menulis lebih dari satu selector, namun dipisah dengan tanda koma (,) dari selector yang satu dengan yang lain.
@@ -763,7 +764,7 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
   - padding yaitu area kosong di antara konten dan border. Padding bersifat transparan.
   - content yaitu konten (value/nilai) dari HTML element. Bisa berupa teks, gambar, video, ataupun suara.
 
-  ![box-model](box-sizing-content-box.svg)
+  ![box-model](box-sizing-content-box.svg)<br/>
   Contoh penggunaan:
 
       <!DOCTYPE html>
@@ -843,10 +844,10 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
 - CSS Display<br/>
   Properti display adalah salah satu yang sering digunakan dalam pengembangan web. Dengan properti display, kita bisa mengatur bagaimana box tersebut ditampilkan.
   - display : none<br/>
-    display : none memiliki fungsi yaitu menghilangkan atau bisa juga kita sebut menghapus elemen tertentu dari sebuah halaman website. Contoh tampilan dari display : none
+    display : none memiliki fungsi yaitu menghilangkan atau bisa juga kita sebut menghapus elemen tertentu dari sebuah halaman website. Contoh tampilan dari display : none <br/>
     ![diplayNone](display-none-hide-image.gif)
   - visibility : hidden<br/>
-    visibility : hidden, dia berfungsi hanya untuk membuat sebuah elemen tidak tampak saja, ‘jejak'(lebar dan tinggi) yang di pengaruhi oleh elemen tersebut akan tetap berpengaruh terhadap elemen lainnya. Contoh tampilan dari visibility : hidden
+    visibility : hidden, dia berfungsi hanya untuk membuat sebuah elemen tidak tampak saja, ‘jejak'(lebar dan tinggi) yang di pengaruhi oleh elemen tersebut akan tetap berpengaruh terhadap elemen lainnya. Contoh tampilan dari visibility : hidden <br/>
     ![visibility](visibility-hidden-hide-image.gif)
   - display : block<br/>
     block-level element adalah element HTML yang memiliki properti display: block secara default tanpa harus menambahkan properti itu di CSS-nya lagi.<br/>
@@ -1019,7 +1020,7 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
             <div>
           </body>
         </html>
-    Dari kode diatas akan menghasilkan seperti gambar berikut:
+    Dari kode diatas akan menghasilkan seperti gambar berikut: <br/>
     ![ukuran](responsive-design-width-percentage.gif)
   - Properti `max-width: 100%`<br/>
     properti max-width: 100% untuk menentukan lebar maksimal dari suatu element.
@@ -1035,20 +1036,20 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
 
     Selain mengatur ukuran dari flex item, sistem flexbox juga bisa mengatur tata letak dan ruang di antara item tersebut (justify-content).<br/>
     Properti justify-content bisa diisi dengan satu dari beberapa nilai berikut:
-    - flex-start - semua item akan ditempatkan di depan seperti pada gambar di atas.
+    - flex-start - semua item akan ditempatkan di depan seperti pada gambar di atas. <br/>
     ![start](flex-start.png)
-    - flex-end - semua item akan ditempatkan di belakang seperti ini:
+    - flex-end - semua item akan ditempatkan di belakang seperti ini:<br/>
     ![end](flex-end.png)
-    - center akan memampatkan semua item ke tengah:
+    - center akan memampatkan semua item ke tengah:<br/>
     ![center](flex-center.png)
-    - space-between akan memberi ruang pada setiap dua item yang bersebelahan:
+    - space-between akan memberi ruang pada setiap dua item yang bersebelahan:<br/>
     ![spc-btwn](space-beetween.png)
-    - space-around akan memberi ruang pada sekitar tiap item:
+    - space-around akan memberi ruang pada sekitar tiap item:<br/>
     ![spc-arnd](space-around.png)
 
 ## Algoritma & Pseudocode
 - Algoritma <br/>
-  Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah
+  Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah<br/>
   ![algoritma](algoritma.png)
 - Pseudocode<br/>
   Pseudocode adalah menuliskan algoritma dengan umumnya bahasa inggris sebelum kita implementasikan ke bahasa pemograman tertentu.<br/>
@@ -1064,10 +1065,10 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
 - Prosedural<br/>
   Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
 - Conditional<br/>
-  Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi
+  Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi<br/>
   ![conditional](conditional.png)
 - Looping<br/>
-  Komputer dapat melakukan sebuah proses yang sama berulang-ulang.Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.
+  Komputer dapat melakukan sebuah proses yang sama berulang-ulang.Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.<br/>
   ![looping](looping.png)
 - Recursive<br/>
   Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function.
@@ -1079,38 +1080,38 @@ CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, ki
 ## Javascript
 Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis. Javascript dijalankan melalui browser pada device setiap user. <br/>
 Contoh Syntax Javascript
-- Alert()
+- Alert()<br/>
   ![alert](alert.png)
-- Prompt()
+- Prompt()<br/>
   ![prompt](prompt.png)
-- Confirm()
+- Confirm()<br/>
   ![confirm](confirm.png)
 
 **Console log** <br/>
-Console log adalah tempat untuk cek logic pemograman web yang kita kembangkan. Console log juga tempat untuk melakukan debugging (mengetahui error pada code) pada pemograman web.
+Console log adalah tempat untuk cek logic pemograman web yang kita kembangkan. Console log juga tempat untuk melakukan debugging (mengetahui error pada code) pada pemograman web.<br/>
 ![console](console.png)
 
 **Comments** <br/>
 Comments adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Menggunakan bahasa inggris atau bahasa indonesia.
-- Single Comments 
+- Single Comments <br/>
   ![single](singlecmnt.png)
-- Multiline Comments
+- Multiline Comments<br/>
   ![multi](multilinecmnt.png)
 
 **Tipe Data (Data Types)**<br/>
 Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.<br/>
 6 tipe data fundamental pada Javascript:
 - number<br/>
-  Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal.
+  Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal.<br/>
   ![number](number.png)
 - string<br/>
-  Tipe data string adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya.
+  Tipe data string adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya.<br/>
   ![string](string.png)
 - boolean<br/>
-  Tipe data boolean adalah tipe data yang hanya mempunyai 2 buah nilai. 2 buah nilai tersebut adalah TRUE (benar) or FALSE (salah). Analoginya adalah seperti tombol/button ON/OFF dan juga seperti sebuah jawaban antara YES/NO.
+  Tipe data boolean adalah tipe data yang hanya mempunyai 2 buah nilai. 2 buah nilai tersebut adalah TRUE (benar) or FALSE (salah). Analoginya adalah seperti tombol/button ON/OFF dan juga seperti sebuah jawaban antara YES/NO.<br/>
   ![boolean](boolean.png)
 - null<br/>
-  Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. Null berbeda dengan string kosong. String kosong masih memiliki tipe data string.
+  Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. Null berbeda dengan string kosong. String kosong masih memiliki tipe data string.<br/>
   ![null](null.png)
 - undefined<br/>
   Tipe data undefined adalah tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai. Undefined berbeda dengan null. <br/>
@@ -1121,10 +1122,10 @@ Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang di
   - Nilai dari pemanggilan fungsi yang tidak mengembalikan nilai (return).
   - Nilai dari parameter fungsi yang tidak memiliki argumen
 
-  Tipe data null biasanya diperoleh dalam kondisi normal dan sudah kita rencanakan. Tipe data undefined juga didapat dari hasil kesalahan program (error), kelalaian programmer, dan tidak direncanakan.
+  Tipe data null biasanya diperoleh dalam kondisi normal dan sudah kita rencanakan. Tipe data undefined juga didapat dari hasil kesalahan program (error), kelalaian programmer, dan tidak direncanakan.<br/>
   ![undefined](undefined.png)
 - object<br/>
-  Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya). Tipe data object mempunyai key dan value.
+  Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya). Tipe data object mempunyai key dan value.<br/>
   ![object](object.png)
 
 **Variabel**<br/>
@@ -1135,12 +1136,12 @@ Variable adalah container/tempat untuk menyimpan sebuah nilai.<br/>
 - Mendapatkan/menampilan data yang tersimpan
 
 3 cara mendefinisikan sebuah variabel:
-- var
+- var<br/>
   ![var](var.png)
-- let
+- let<br/>
   ![let](let.png)
 - const<br/>
-  Gunakan const jika variabel tidak dapat diubah nilainya. Biasanya digunakan untuk menggambarkan konstanta sebuah nilai. Seperti konstanta pi = 3.14.
+  Gunakan const jika variabel tidak dapat diubah nilainya. Biasanya digunakan untuk menggambarkan konstanta sebuah nilai. Seperti konstanta pi = 3.14.<br/>
   ![const](const.png)
 
 Perbedan let dan var:
@@ -1155,14 +1156,14 @@ Aturan penamaan variabel:
 
 **Operator**<br/>
 - Assignment Operator (=)<br/>
-  Assignment operator digunakan untuk menyimpan sebuah nilai pada variabel.
+  Assignment operator digunakan untuk menyimpan sebuah nilai pada variabel.<br/>
   ![=](%3D.png)
 - Mathematical Assignment Operator<br/>
-  ![mat](mat.png)
+  ![mat](mat.png)<br/>
   ![mat](matt.png)
 - Increment dan Decrement<br/>
-  Gunakan increment atau decrement untuk menambah atau mengurangi sebesar 1 nilai
-  ![inc](inc.png)
+  Gunakan increment atau decrement untuk menambah atau mengurangi sebesar 1 nilai<br/>
+  ![inc](inc.png)<br/>
   ![dec](dec.png)
 - Arithmetic Operator<br/>
   Arithmetic operator adalah operator yang melibatkan operasi matematika.
@@ -1188,50 +1189,50 @@ Aturan penamaan variabel:
   Logical operator biasa digunakan untuk sebuah CONDITIONAL pada pemograman. Menghasilkan nilai BOOLEAN yaitu TRUE or FALSE.<br/>
   Simbol dari Logical Operator adalah sebagai berikut:
   - AND operator : &&<br/>
-    AND akan menghasilkan nilai true jika kedua atau semua premis bernilai TRUE.
+    AND akan menghasilkan nilai true jika kedua atau semua premis bernilai TRUE.<br/>
     ![and](and.png)
   - OR operator: || <br/>
-    OR akan menghasilkan nilai true jika salah satu premis mengandung nilai TRUE.
+    OR akan menghasilkan nilai true jika salah satu premis mengandung nilai TRUE.<br/>
     ![or](or.png)
   - NOT operator: ! <br/>
-    NOT akan membalikkan sebuah nilai BOOLEAN. TRUE menjadi FALSE dan sebaliknya.
+    NOT akan membalikkan sebuah nilai BOOLEAN. TRUE menjadi FALSE dan sebaliknya.<br/>
     ![not](not.png)
 
 **Conditional**<br/>
 Conditional merupakan statement percabangan yang menggambarkan suatu kondisi. Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
 ![cond](cond.png)
 - IF … ELSE Statement<br/>
-  Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE
+  Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE<br/>
   ![ifelse](ifelse.png)
 - IF … ELSE IF … Statement<br/>
-  Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
+  Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.<br/>
   ![ifelseif](ifelseif.png)
 
 Truthy and Falsy<br/>
-Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya.
+Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya.<br/>
 ![trut](truth.png)
 
 Switch Case Conditional<br/>
-Gunakan switch case jika kondisi dan percabangan terlalu banyak.
+Gunakan switch case jika kondisi dan percabangan terlalu banyak.<br/>
 ![swcs](switchcase.png)
 
 Ternary Operator<br/>
-Ternary operator merupakan short-syntax dari statement if … else.
+Ternary operator merupakan short-syntax dari statement if … else.<br/>
 ![trnry](ternary.png)
 
 
 **Looping**<br/>
 Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
 - For Loop<br/>
-  FOR LOOP merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan. Gunakan FOR LOOP jika kita tahu seberapa banyak nilai pasti untuk pengulangannya
+  FOR LOOP merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan. Gunakan FOR LOOP jika kita tahu seberapa banyak nilai pasti untuk pengulangannya.<br/>
   ![forloop](forloop.png)
 - While Loop<br/>
-  WHILE LOOP akan menjalankan instruksi pengulangan kondisi bernilai TRUE. Gunakan WHILE LOOP jika kita tidak mengetahui jumlah pasti pengulangan.
+  WHILE LOOP akan menjalankan instruksi pengulangan kondisi bernilai TRUE. Gunakan WHILE LOOP jika kita tidak mengetahui jumlah pasti pengulangan.<br/>
   ![whileloop](whileloop.png)
 - Do While<br/>
-  Do-while adalah salah satu pernyataan pengulangan yang memungkinkan kita untuk membuat program berjalan secara fleksibel berdasarkan keinginan pengguna. Do-while berfungsi untuk mengulangi pengeksekusian beberapa substatement berdasarkan conditional expression yang ada. 
+  Do-while adalah salah satu pernyataan pengulangan yang memungkinkan kita untuk membuat program berjalan secara fleksibel berdasarkan keinginan pengguna. Do-while berfungsi untuk mengulangi pengeksekusian beberapa substatement berdasarkan conditional expression yang ada. <br/>
   ![dowhile](dowhile.png)
 - Nested Loop<br/>
-  Nested loop dapat diartikan sebagai looping atau perulangan yang bersarang. Maksudnya adalah dalam looping tersebut masih terdapat looping lagi bahkan dalam looping tersebut, masih memungkinkan untuk membuat perulangan lagi sehingga looping tersebut bersarang kedalam
+  Nested loop dapat diartikan sebagai looping atau perulangan yang bersarang. Maksudnya adalah dalam looping tersebut masih terdapat looping lagi bahkan dalam looping tersebut, masih memungkinkan untuk membuat perulangan lagi sehingga looping tersebut bersarang kedalam.<br/>
   ![nested](nestedloop.png)
 
